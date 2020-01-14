@@ -51,9 +51,7 @@ console.log(result.parsed)
 //axios.get(`https://rest.bandsintown.com/artists/celine+dion/events?app_id=codingbootcamp`).then(
 //    function(response) {
 //      console.log("The movie's rating is: " + response.data.;
-
-
-  //    2. node liri.js spotify-this-song '<song name here>
+//   2. node liri.js spotify-this-song '<song name here>
 //
    //* This will show the following information about the song in your terminal/bash window
 //
@@ -95,7 +93,6 @@ console.log(result.parsed)
 //   Using the `fs` Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
 //
 //    It should run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
-//
-//     Edit the text in random.txt to test out the feature for movie-this and concert-this.  
+//   Edit the text in random.txt to test out the feature for movie-this and concert-this.  
 //
 //
