@@ -52,7 +52,8 @@ axios.get("http://www.omdbapi.com/?t=remember+the+titans&y=&plot=short&apikey=tr
     function(response) {
       console.log("The movie's rating is: " + response.data.;
 
-   //   2. `node liri.js spotify-this-song '<song name here>'`
+
+  //    2. node liri.js spotify-this-song '<song name here>
 //
    //* This will show the following information about the song in your terminal/bash window
 //
@@ -68,7 +69,7 @@ axios.get("http://www.omdbapi.com/?t=remember+the+titans&y=&plot=short&apikey=tr
 //
    //* You will utilize the [node-spotify-api](https://www.npmjs.com/package/node-spotify-api) package in order to retrieve song information from the Spotify API.
 
-  // 3. `node liri.js movie-this '<movie name here>'`
+  // 3. node liri.js movie-this '<movie name here>'`
 //
   // * This will output the following information to your terminal/bash window:
 //
@@ -86,29 +87,14 @@ axios.get("http://www.omdbapi.com/?t=remember+the+titans&y=&plot=short&apikey=tr
   // * If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
 //
   //   * If you haven't watched "Mr. Nobody," then you should: <http://www.imdb.com/title/tt0485947/>
-//
-  //   * It's on Netflix!
+/*
+     It's on Netflix!
 
+  4. `node liri.js do-what-it-says`
 
-  })
-  .catch(function(error) {
-    if (error.response) {
-      // The request was made and the server responded with a status code
-      // that falls out of the range of 2xx
-      console.log("---------------Data---------------");
-      console.log(error.response.data);
-      console.log("---------------Status---------------");
-      console.log(error.response.status);
-      console.log("---------------Status---------------");
-      console.log(error.response.headers);
-    } else if (error.request) {
-      // The request was made but no response was received
-      // `error.request` is an object that comes back with details pertaining to the error that occurred.
-      console.log(error.request);
-    } else {
-      // Something happened in setting up the request that triggered an Error
-      console.log("Error", error.message);
-    }
-    console.log(error.config);
-  });
- 
+   Using the `fs` Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
+
+    It should run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
+
+     Edit the text in random.txt to test out the feature for movie-this and concert-this.  */
+
