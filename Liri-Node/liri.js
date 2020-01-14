@@ -43,14 +43,14 @@ console.log(result.parsed)
 
 
 // Then run a request with axios to the OMDB API with the movie specified
-axios.get("http://www.omdbapi.com/?t=remember+the+titans&y=&plot=short&apikey=trilogy").then(
-  function(response) {
-    console.log("The movie's rating is: " + response.data.imdbRating);
-
-
-  /axios.get(`https://rest.bandsintown.com/artists/celine+dion/events?app_id=codingbootcamp`).then(
-    function(response) {
-      console.log("The movie's rating is: " + response.data.;
+//axios.get("http://www.omdbapi.com/?t=remember+the+titans&y=&plot=short&apikey=trilogy").then(
+//  function(response) {
+//    console.log("The movie's rating is: " + response.data.imdbRating);
+//
+//
+//axios.get(`https://rest.bandsintown.com/artists/celine+dion/events?app_id=codingbootcamp`).then(
+//    function(response) {
+//      console.log("The movie's rating is: " + response.data.;
 
 
   //    2. node liri.js spotify-this-song '<song name here>
@@ -87,14 +87,15 @@ axios.get("http://www.omdbapi.com/?t=remember+the+titans&y=&plot=short&apikey=tr
   // * If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
 //
   //   * If you haven't watched "Mr. Nobody," then you should: <http://www.imdb.com/title/tt0485947/>
-/*
-     It's on Netflix!
-
-  4. `node liri.js do-what-it-says`
-
-   Using the `fs` Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
-
-    It should run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
-
-     Edit the text in random.txt to test out the feature for movie-this and concert-this.  */
-
+//
+//     It's on Netflix!
+//
+//  4. `node liri.js do-what-it-says`
+//
+//   Using the `fs` Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
+//
+//    It should run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
+//
+//     Edit the text in random.txt to test out the feature for movie-this and concert-this.  
+//
+//
