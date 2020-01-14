@@ -1,11 +1,8 @@
+                          LIRI APP!!!!
 1. In this App I am going to develop a Language Interpretation and Recognition Interface(LIRI), it is intended to to be a command line node app that will allow you to check out your favorite bands and concerts, look up your favorite movie information, ratings, actors, and request songs to play from spotify.
 
-
-
 2.Using a variety of NPM packages, such as axios, You will be able to access API nodes and stream contact from various websites.
-
-3.
-a.`node liri.js concert-this <artist/band name here>`
+3. a.`node liri.js concert-this <artist/band name here>`
 
       ----  This will search the Bands in Town Artist Events API (`"https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp"`) for an artist and render the following information about each event to the terminal:
 
